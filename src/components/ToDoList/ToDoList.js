@@ -38,6 +38,18 @@ export default function ToDoList() {
     })
   }
 
+  const onKeyDown = event => {
+    if (event.keyCode === 13) {
+      dispatch(addTask(state.task));
+      setState(prev => {
+        return {
+          ...prev,
+          task: '',
+        }
+      })
+    }
+  }
+
   let status = 'All'
   if (statusBtn === 'All') {
     status = 'All'
@@ -59,6 +71,7 @@ export default function ToDoList() {
           name="task"
           value={state.task}
           onChange={changeInput}
+          onKeyDown={onKeyDown}
           placeholder="Какие планы на сегодня?"
         />
         <button

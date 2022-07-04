@@ -29,12 +29,12 @@ export default function Buttons() {
     return dispatch(taskListClear());
   }
 
-const taskLength = () => {
- const length = tasks.filter((item) =>
-    item.status === true
-  )
-  return length.length
-}
+  const taskLength = () => {
+    const length = tasks && tasks.filter((item) =>
+      item.status === true
+    )
+    return length.length
+  }
 
   return (
     <div className='buttons'>
@@ -50,7 +50,7 @@ const taskLength = () => {
                 'buttons__container-buttons-button-active'
                 :
                 'buttons__container-buttons-button'
-                }>
+            }>
             All
           </button>
           <button
@@ -60,7 +60,7 @@ const taskLength = () => {
                 'buttons__container-buttons-button-active'
                 :
                 'buttons__container-buttons-button'
-                }>
+            }>
             Active
           </button>
           <button
@@ -70,7 +70,7 @@ const taskLength = () => {
                 'buttons__container-buttons-button-active'
                 :
                 'buttons__container-buttons-button'
-                }>
+            }>
             Completed
           </button>
         </div>

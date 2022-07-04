@@ -32,3 +32,12 @@ export function taskListClear() {
         type: 'CLEAR_TASK'
     };
 }
+
+export function addTasksLocalStorage(tasks) {
+    return {
+        type: 'ADD_TASKS_LOCAL_STORAGE',
+        payload: {
+            tasks: tasks
+        }
+    };
+}
