@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/React-To-Do-list/static/css/main.6b96632b.css",
-    "main.js": "/React-To-Do-list/static/js/main.a98288af.js",
+    "main.js": "/React-To-Do-list/static/js/main.ec6d6264.js",
     "static/js/787.9e899815.chunk.js": "/React-To-Do-list/static/js/787.9e899815.chunk.js",
     "index.html": "/React-To-Do-list/index.html",
     "static/media/checkmarkoutline_110785.svg": "/React-To-Do-list/static/media/checkmarkoutline_110785.1015a4735108376c1442.svg",
     "main.6b96632b.css.map": "/React-To-Do-list/static/css/main.6b96632b.css.map",
-    "main.a98288af.js.map": "/React-To-Do-list/static/js/main.a98288af.js.map",
+    "main.ec6d6264.js.map": "/React-To-Do-list/static/js/main.ec6d6264.js.map",
     "787.9e899815.chunk.js.map": "/React-To-Do-list/static/js/787.9e899815.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b96632b.css",
-    "static/js/main.a98288af.js"
+    "static/js/main.ec6d6264.js"
   ]
 }
